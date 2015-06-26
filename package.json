@@ -1,0 +1,47 @@
+{
+  "name": "speechvillage-logger",
+  "description": "A simple logging system built on top of Winston",
+  "version": "0.1.0",
+  "author": {
+    "name": "SpeechVillage s.r.l.",
+    "email": "info@speechvillage.com"
+  },
+  "mantainters": [
+    {
+      "name": "Marco Travaglini",
+      "email": "mt@speechvillage.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speechvillage/speechvillage-logger.git"
+  },
+  "keywords": [
+    "logging",
+    "tools"
+  ],
+  "main": "./lib/default-logger",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/winstonjs/winston/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "winston": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.2.5"
+  }
+}

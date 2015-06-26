@@ -1,2 +1,2 @@
 # speechvillage-logger
-A logging system built as wrapper of Winston
+A simple logging system built on top of Winston
