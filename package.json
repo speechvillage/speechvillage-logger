@@ -20,7 +20,7 @@
     "logging",
     "tools"
   ],
-  "main": "./lib/default-logger",
+  "main": "./lib/index",
   "scripts": {
     "test": "grunt test"
   },
