@@ -22,4 +22,8 @@ describe('null logger', function () {
     	expect(logger.log).to.be.not.undefined;
     	logger.log.should.be.a('function');
     });
+    it('should exists the method logError', function () {
+        expect(logger.logError).to.be.not.undefined;
+        logger.logError.should.be.a('function');
+    });
 });

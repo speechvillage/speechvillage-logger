@@ -18,6 +18,11 @@ There are 2 kinds of loggers you can choose from:
 
 Moreover, you can access the underlying winston logger by accessing the `logger` field of the default logger.
 
+Additional functions
+-----
+
++ `logError(err, msg)` - where *err* is an error and *msg* is a custom message, will log on error stream a message like this: `msg - err.name: err.message`
+
 Examples
 --------
 
@@ -30,4 +35,8 @@ defaultLogger.info('this will logs both on console and on file');
 
 // You can access the underlying winston logger
 defaultLogger.logger.warn('hello, this is Winston!');
+
+var err = new Error('the error message');
+defaultLogger.logError(err, 'A custom message');
+// Will print on error: 'A custom message - Error: the error message'
 ```
