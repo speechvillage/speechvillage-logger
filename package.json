@@ -1,7 +1,7 @@
 {
   "name": "speechvillage-logger",
   "description": "A simple logging system built on top of Winston",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "author": {
     "name": "SpeechVillage s.r.l.",
     "email": "info@speechvillage.com"
